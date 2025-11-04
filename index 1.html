@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite AI Marketplace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top-nav">
+    <div class="container nav-content">
+      <a class="brand" href="#">
+        <img src="https://www.infinite.com/wp-content/uploads/2024/06/ICS-Logo.svg" alt="Infinite Logo">
+        <span>AI Marketplace</span>
+      </a>
+      <nav>
+        <a href="#featured">Featured</a>
+        <a href="#catalog">Capabilities</a>
+        <a href="#partners">Partners</a>
+        <a href="#stories">Use Cases</a>
+      </nav>
+      <a class="nav-cta" href="#cta">Request Demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Infinite AI Marketplace</p>
+          <h1>Discover enterprise-ready AI capabilities tailored for your organization.</h1>
+          <p class="subtitle">Browse curated solutions, evaluate partner expertise, and bring transformative AI experiences to market faster.</p>
+          <form class="search" role="search">
+            <label for="search" class="sr-only">Search capabilities</label>
+            <input id="search" type="search" placeholder="Search capabilities, partners, industries...">
+            <button type="submit">Search</button>
+          </form>
+          <div class="hero-meta">
+            <span>60+ enterprise AI accelerators</span>
+            <span>Curated partner ecosystem</span>
+            <span>Secure deployment pathways</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb"></div>
+          <div class="glow-card">
+            <h3>Top Performing</h3>
+            <div class="glow-card-item">
+              <p class="label">Industry</p>
+              <p class="value">Banking &amp; FinTech</p>
+            </div>
+            <div class="glow-card-item">
+              <p class="label">Avg. ROI</p>
+              <p class="value">38%</p>
+            </div>
+            <div class="glow-card-item">
+              <p class="label">Adoption</p>
+              <div class="progress"><span style="width: 76%"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured Capabilities</h2>
+          <p>Hand-picked AI offerings to accelerate high-impact use cases across the enterprise.</p>
+        </header>
+        <div class="card-grid">
+          <article class="card highlight">
+            <span class="badge">New</span>
+            <h3>AI Risk Intelligence Suite</h3>
+            <p>Automated risk scoring, anomaly detection, and compliance workflows for regulated industries.</p>
+            <ul>
+              <li>Model governance dashboard</li>
+              <li>Continuous monitoring</li>
+              <li>Audit ready reports</li>
+            </ul>
+            <div class="card-footer">
+              <span class="price">Enterprise Tier</span>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="badge">Popular</span>
+            <h3>Customer360 CoPilot</h3>
+            <p>Unifies structured and unstructured data to surface next-best actions and personal recommendations.</p>
+            <ul>
+              <li>Fine-tuned LLM orchestration</li>
+              <li>Salesforce integration</li>
+              <li>Real-time sentiment</li>
+            </ul>
+            <div class="card-footer">
+              <span class="price">Starts at $8k/mo</span>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="badge secondary">AI Labs</span>
+            <h3>GenAI Innovation Sprint</h3>
+            <p>Design sprint engagements to validate AI concepts with working prototypes in four weeks.</p>
+            <ul>
+              <li>Discovery workshops</li>
+              <li>Trusted partner network</li>
+              <li>Executive playbacks</li>
+            </ul>
+            <div class="card-footer">
+              <span class="price">Fixed Scope</span>
+              <a href="#" class="btn">View Details</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories" aria-label="Capability categories">
+      <div class="container category-strip">
+        <button type="button" class="chip active">All</button>
+        <button type="button" class="chip">Banking</button>
+        <button type="button" class="chip">Healthcare</button>
+        <button type="button" class="chip">Retail</button>
+        <button type="button" class="chip">Manufacturing</button>
+        <button type="button" class="chip">Customer Service</button>
+        <button type="button" class="chip">Security</button>
+        <button type="button" class="chip">RegTech</button>
+        <button type="button" class="chip">Data Platforms</button>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <header class="section-header">
+          <h2>Explore the Catalog</h2>
+          <p>Filter by industry, deployment speed, value drivers, and partner specialization.</p>
+        </header>
+        <div class="catalog-controls">
+          <label class="select">
+            <span>Industry</span>
+            <select>
+              <option>All</option>
+              <option>Banking &amp; Financial Services</option>
+              <option>Healthcare</option>
+              <option>Telecom</option>
+              <option>Media</option>
+            </select>
+          </label>
+          <label class="select">
+            <span>Deployment</span>
+            <select>
+              <option>Any</option>
+              <option>2-4 Weeks</option>
+              <option>1-3 Months</option>
+              <option>Custom</option>
+            </select>
+          </label>
+          <label class="select">
+            <span>Value Driver</span>
+            <select>
+              <option>Any</option>
+              <option>Cost Optimization</option>
+              <option>Revenue Growth</option>
+              <option>Operational Resilience</option>
+            </select>
+          </label>
+          <button class="filter-btn" type="button">Apply Filters</button>
+        </div>
+        <div class="catalog-grid">
+          <article class="capability">
+            <div class="capability-header">
+              <h3>Conversational Care Assistant</h3>
+              <span class="tag">Healthcare</span>
+            </div>
+            <p>HIPAA-ready virtual care assistant with multilingual voice support and EHR integrations.</p>
+            <ul>
+              <li>Integrates Epic &amp; Cerner</li>
+              <li>24/7 triage workflows</li>
+              <li>Secured with Azure Confidential Computing</li>
+            </ul>
+            <div class="capability-meta">
+              <span class="rating" aria-label="Rated 4.8 out of 5">★★★★★ <span>4.8</span></span>
+              <a href="#" class="btn ghost">View Partner</a>
+            </div>
+          </article>
+          <article class="capability">
+            <div class="capability-header">
+              <h3>Predictive Maintenance Edge</h3>
+              <span class="tag">Manufacturing</span>
+            </div>
+            <p>Edge-native analytics for IoT fleets delivering downtime reduction and safety compliance insights.</p>
+            <ul>
+              <li>Industrial IoT ready</li>
+              <li>Closed-loop automation</li>
+              <li>OT security baseline</li>
+            </ul>
+            <div class="capability-meta">
+              <span class="rating" aria-label="Rated 4.6 out of 5">★★★★★ <span>4.6</span></span>
+              <a href="#" class="btn ghost">View Partner</a>
+            </div>
+          </article>
+          <article class="capability">
+            <div class="capability-header">
+              <h3>Responsible AI Governance Hub</h3>
+              <span class="tag">Cross-Industry</span>
+            </div>
+            <p>Policy-aware governance portal aligning AI deployments with regulatory and ethical guardrails.</p>
+            <ul>
+              <li>Mitigation playbooks</li>
+              <li>Bias audit automation</li>
+              <li>Executive reporting suite</li>
+            </ul>
+            <div class="capability-meta">
+              <span class="rating" aria-label="Rated 4.9 out of 5">★★★★★ <span>4.9</span></span>
+              <a href="#" class="btn ghost">View Partner</a>
+            </div>
+          </article>
+        </div>
+        <div class="catalog-footer">
+          <button type="button" class="ghost-btn">Load More Capabilities</button>
+          <p class="note">Showing 12 of 60 capabilities</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners" id="partners">
+      <div class="container partners-content">
+        <div class="partners-copy">
+          <h2>Partner Ecosystem</h2>
+          <p>Infinite brings together trusted industry experts and technology providers to deliver production-ready AI outcomes.</p>
+          <ul>
+            <li>Strategic alliances with Microsoft, AWS, Google Cloud</li>
+            <li>Certified delivery partners across data, automation, and security</li>
+            <li>Enterprise onboarding, co-selling, and success playbooks</li>
+          </ul>
+          <a href="#" class="btn">Meet the Partners</a>
+        </div>
+        <div class="partners-showcase" aria-label="Partner logos">
+          <div class="logo-tile">Microsoft</div>
+          <div class="logo-tile">Google Cloud</div>
+          <div class="logo-tile">AWS</div>
+          <div class="logo-tile">ServiceNow</div>
+          <div class="logo-tile">Snowflake</div>
+          <div class="logo-tile">UiPath</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stories" id="stories">
+      <div class="container stories-grid">
+        <article class="story">
+          <h3>Global Bank Reduces Fraud Losses by 42%</h3>
+          <p>Deployed AI-driven risk and anomaly detection across payment rails, enabling real-time interdiction and compliance reporting.</p>
+          <a href="#" class="link">Read the Case Study</a>
+        </article>
+        <article class="story">
+          <h3>Healthcare Network Cuts Intake Time by 30%</h3>
+          <p>Automated patient onboarding with multilingual voice assistants and secure document intelligence.</p>
+          <a href="#" class="link">Read the Case Study</a>
+        </article>
+        <article class="story">
+          <h3>Retailer Scales Personalization Across 15 Markets</h3>
+          <p>Unified customer profiles with predictive merchandising to unlock hyper-localized campaigns.</p>
+          <a href="#" class="link">Read the Case Study</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="container cta-content">
+        <div>
+          <h2>Ready to transform your enterprise with AI?</h2>
+          <p>Let’s collaborate on a roadmap, co-create solutions, and deliver measurable business outcomes.</p>
+        </div>
+        <form class="cta-form">
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" type="text" placeholder="Name">
+          <label class="sr-only" for="email">Work Email</label>
+          <input id="email" type="email" placeholder="Work Email">
+          <button type="submit">Request Workshop</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="brand" href="#top">
+          <img src="https://www.infinite.com/wp-content/uploads/2024/06/ICS-Logo.svg" alt="Infinite Logo">
+          <span>AI Marketplace</span>
+        </a>
+        <p class="footer-copy">© <span id="year"></span> Infinite Computer Solutions. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Solutions</a>
+        <a href="#">Partners</a>
+        <a href="#">Support</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
